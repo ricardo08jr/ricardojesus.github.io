@@ -3,7 +3,7 @@ import projects from "../data/projects";
 import type { Project } from "../types";
 import ProjectModal from "./ProjectModal";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-
+import DefaultImage from "../assets/icone-imagem-padrao.png"
 export default function ProjectsBlock() {
   const [selected, setSelected] = useState<Project | null>(null);
 
@@ -28,7 +28,7 @@ export default function ProjectsBlock() {
               aria-label={`Abrir detalhes do projeto ${p.title}`}
             >
               <div className="project-media">
-                <img src={p.image} alt={p.title} />
+                <img src={p.image || DefaultImage} alt={p.title} />
               </div>
 
               <div className="project-info">

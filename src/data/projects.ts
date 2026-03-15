@@ -23,6 +23,17 @@ const projects: Project[] = [
     repo: "",
     video: "https://www.youtube.com/watch?v=R6BOlvQ1uR0",
     details: `Meu maior propósito sempre foi estimular o raciocínio lógico e a resolução de problemas. O projeto começou no Ensino Médio com amigos, evoluindo de uma brincadeira para algo com grande potencial, utilizando tecnologias e APIs para melhorar o jogo. `
+  },
+  {
+    id: "p3",
+    title: "Gerenciador de Itens Emprestado",
+    description: `Projeto mobile
+A ideia do aplicativo é permitir que usuários registrem objetos que podem ser emprestados, gerenciem contatos e acompanhem itens emprestados ou disponíveis`,
+    tech: ["Java","Android Studio","Gradle"],
+    repo: "https://github.com/ricardo08jr/borrow-manager",
+    video: "https://youtu.be/YzbFRiyJ7Wg",
+    details: `Este projeto começou como um projeto de estudo mais simples, mas foi evoluindo conforme eu aprendia novos conceitos de arquitetura e padrões de projeto.
+O principal objetivo do projeto é praticar desenvolvimento orientado a objetos e padrões de design em Java.`
   }
 ];
 
