@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
-
+import FavIcon from "../assets/favicon.png"
 export default function Topbar() {
   const [open, setOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,7 +25,7 @@ export default function Topbar() {
       <header className={`topbar ${isScrolled ? "topbar--stuck" : ""}`}>
         <div className="topbar-inner">
           <div className="brand">
-            <img src="/assets/logo.png" alt="logo" className="brand-logo" />
+            <img src={FavIcon} alt="logo" className="brand-logo" />
             <span className="brand-name">Ricardo Júnior</span>
           </div>
 
