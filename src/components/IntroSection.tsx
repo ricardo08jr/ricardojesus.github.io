@@ -9,7 +9,7 @@ export default function IntroSection() {
           <div className="intro-left">
             <p className="lead">Olá, eu sou</p>
             <h1 className="hero-name">Ricardo Júnior</h1>
-            <p className="hero-role">Desenvolvedor Fullstack • C# • React • DevOps</p>
+            <p className="hero-role">Desenvolvedor Fullstack • Desenvolvedor Backend</p>
 
             <p className="hero-desc">
               Desenvolvo aplicações web com foco em arquitetura limpa, performance e experiência do usuário.
