@@ -9,9 +9,9 @@ const projects: Project[] = [
     Para a constituição do projeto, foram utilizadas as linguagens de programação C# ASP.net, Ionic Angular, JavaScript, TypeScript, MySQL WorkBench, além das linguagens de marcação HTML 5 e CSS, para a construção e estruturação visual da interface e da ferramenta Figma para a criação do Design e Logotipo.`,
     image: WebEstoque,
     tech: [ "C# ASP.NET", "MySQL","Ionic Angular", "TypeScript"],
-    demo: "https://github.com/ricardo08jr/restaurant-management-system?tab=readme-ov-file#solu%C3%A7%C3%A3o",
+    video: "https://youtu.be/7jo9zVUW0-0",
     repo: "https://github.com/ricardo08jr/restaurant-management-system?tab=readme-ov-file#sum%C3%A1rio",
-    details: "Este projeto foi feito como TCC... "
+    details: "O projeto foi dividido em três sistemas principais: Sistema Web de Gerenciamento do Restaurante, Aplicação Web para a Cozinha, Aplicativo Mobile "
   },
   {
     id: "p2",
