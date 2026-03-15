@@ -4,7 +4,7 @@ export default function SiteFooter() {
   return (
     <footer className="site-footer reveal">
       <div className="container footer-inner">
-        <p>© {new Date().getFullYear()} Ricardo Jesus. Todos os direitos reservados. Feito com ReactJS</p>
+        <p>© {new Date().getFullYear()} Ricardo Matos de Jesus Júnior. Todos os direitos reservados. Feito com ReactJS</p>
         <nav className="footer-nav">
           <a href="#intro">Início</a>
           <a href="#about">Sobre</a>
