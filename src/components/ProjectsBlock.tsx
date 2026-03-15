@@ -3,7 +3,7 @@ import projects from "../data/projects";
 import type { Project } from "../types";
 import ProjectModal from "./ProjectModal";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import DefaultImage from "../assets/icone-imagem-padrao.png"
+import DefaultImage from "../assets/no-image-available.jpg"
 export default function ProjectsBlock() {
   const [selected, setSelected] = useState<Project | null>(null);
 
