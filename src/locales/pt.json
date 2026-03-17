@@ -50,7 +50,8 @@
     "buttons": {
       "projects": "Ver projetos",
       "whatsapp": "WhatsApp",
-      "cv": "Download CV"
+      "cv": "Download CV",
+      "path-cv":"/src/assets/cv-ricardo-junior.pdf"
     }
   },
   "about": {

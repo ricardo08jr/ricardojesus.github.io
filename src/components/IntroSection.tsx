@@ -1,6 +1,5 @@
 import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import Perfil from "../assets/perfil-removebg-preview.png";
-import Curriculo from "../assets/cv-ricardo-junior.pdf"
 import { useTranslation } from "react-i18next";
 export default function IntroSection() {
   const { t } = useTranslation();
@@ -29,7 +28,7 @@ export default function IntroSection() {
               >
                 {t("intro.buttons.whatsapp")}
               </a>
-              <a className="btn-outline" href={Curriculo} download>
+              <a className="btn-outline" href={t("intro.buttons.path-cv")} download>
                 <FaDownload /> {t("intro.buttons.cv")}
               </a>
 
